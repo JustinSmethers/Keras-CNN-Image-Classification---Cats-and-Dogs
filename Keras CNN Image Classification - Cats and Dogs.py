@@ -52,6 +52,8 @@ opt = SGD(lr=0.01)
 classifier.compile(optimizer=opt, loss='binary_crossentropy', metrics=['acc'])
 
 
+# I broke the images up into 2 data sets. The training set consists of a folder of 4000 dog pictures and a folder of 4000 cat pictures. The test set consisits of a folder of 1000 dog pictures and a folder of 1000 cat pictures. 
+
 # In[18]:
 
 
